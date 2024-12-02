@@ -1,0 +1,93 @@
+/* Text/Title */
+.body {
+    background-color: rgb(219, 219, 219);
+    margin: 0;
+}
+.mainheader{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 400%;
+}
+.subheader{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 250%;
+   }
+
+/*paragraph with no background*/
+.paragraph{
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    display: inline-block;
+
+}
+
+/* paragraph with background */
+.paragraph1{
+    font-size: 150%;
+    display: block;
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    outline-style: solid;
+    outline-color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Table */
+table,th,td {
+    border:1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(200, 200, 200);
+}
+/*table{
+    float: right; 
+
+}*/
+th, td {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 120%;
+}
+
+/* iframe/picture in the center of the page */
+.mediummiddlepicture{
+    transform: translate(70%,0%);
+    height: 400px;
+    width: 40%;
+}
+
+/* divider that has grey border in the center*/
+.div {
+    display: block;
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    outline-style: solid;
+    outline-color: black;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+/*Navbar Style*/
+.navbar {
+    position: fixed;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    top: 0;
+    background-color: rgb(170, 170, 170);
+}
+.navbar a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    margin: 4px;
+    margin-bottom: 0px;
+    font-family: monospace;
+}

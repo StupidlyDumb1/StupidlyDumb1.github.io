@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Reivision</title>
+        <link rel="icon" type="images/png" href="">
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css"> 
+    </head>
+
+    <body style="background-color: rgb(164, 200, 200);">
+
+ 
+        <!-- title on Differentiation-->
+        <h1 class="mainheader"><ins> Differentiation </ins></h1>
+        
+
+        <!--paragraph on explaining what differentiation in math is-->
+        <p class="paragraph1">Differentiation is used to caculate rate of change on a gradient of tangent to a curve with the function of change in x is 
+                              a change in y that can be seen as (dy/dx). For example, the change of velocity in acceleration </p>
+
+        <!-- Show a picture of differentiating a function-->
+        <img src="/assets/Differentiate a function.png" alt="Differentiate a function rules"> 
+
+        <!-- link to referance-->
+        <p><a href="ReferanceList.html#Sacchetti">(Sacchetti, Monagan, 2023)</a></p>
+
+        <!--Table for differentiate -->
+        <table>
+            <tr>
+                <th>Rules</th>
+                <th>Formula</th>
+                <th>Explain</th>
+                <th>Example 1</th>
+                <th>Example 2</th>
+            </tr>
+            <tr>
+                <td>Constant Rule</td>
+                <td>d/dx *c = 0</td>
+                <td>Any number(indicated with "c") without a x axis is equal to zero</td>
+                <td>10 ==> 0</td>
+                <td>69 ==> 0</td>
+            </tr>
+            <tr>
+                <td>Power Rule</td>
+                <td>d/dx * xⁿ = nxⁿ⁻¹ </td>
+                <td>When x axis has power, time number of power to x and remove a power from x</td>
+                <td>x² ==> 2x</td>
+                <td>2x⁴ ==> 8x³</td>
+            </tr>
+            <tr>
+                <td>Trigonometric Rules</td>
+                <td>d/dx sin(x) = cos(x)</td>
+                <td>Sin turns into cos</td>
+                <td>sin(5) ==> cos(5)</td>
+                <td>sin(45) ==> cos(45)</td>
+            </tr>
+            <tr>
+                <td>Trigonometric Rules</td>
+                <td>d/dx cos(x) = -sin(x)</td>
+                <td>Cos turns into -sin</td>
+                <td>cos(5) ==> -sin(5)</td>
+                <td>cos(45) ==> -sin(45)</td>
+            </tr>
+            <tr> 
+                <td>Exponential Rules </td>
+                <td>d/dx b^x = b^x In(b)</td>
+                <td>Exponential turns into log </td>
+                <td>d/dx b^5 = b^5In(b) </td>
+                <td>d/dx b^45 = b^45In(b) </td>
+            </tr>
+            <tr> 
+                <td>Logarithmic Rules </td>
+                <td>d/dx ln(x) = 1/x</td>
+                <td>Log turns into fraction x of 1 </td>
+                <td>d/dx ln(5) = 1/5</td>
+                <td>d/dx ln(45) = 1/45</td>
+            </tr>
+        </table>
+        
+        <!-- sub title on Differentiation video-->
+        <h1 class="subheader" style="transform: translate(28%,0%);"><ins><b> Differentiation Video</b></ins></h1>
+
+        <!-- video on differentiate-->
+        <iframe class="mediummiddlepicture"
+        src="https://www.youtube.com/embed/IvLpN1G1Ncg?si=qZ6X-9xO5pER3Siy" alt="https://www.youtube.com/embed/IvLpN1G1Ncg?si=qZ6X-9xO5pER3Siy">
+        </iframe>
+        <!-- link to video in case video is some how broken and the reader is unable to access it-->
+        <p style="transform: translate(28%,0%);" ><a href="https://www.youtube.com/watch?v=IvLpN1G1Ncg" target="_blank">Click for link = https://www.youtube.com/watch?v=IvLpN1G1Ncg</a></p>
+
+
+        <div class="div">
+            <!-- Example title-->
+            <h1 class="subheader" style="margin: 0;"><ins> Example </ins></h1>
+
+            <!-- paragraph to explain-->
+            <p class="paragraph";>Example 1, differentiate and find any stationary points of y = x³ - 6x² + 9x + 1. <br>
+                <br>
+                Using the power rule (d/dx * xⁿ = nxⁿ⁻¹ )<br> 
+                x³ - 6x² + 9x ===> 3x² - 12x + 9 <br> 
+                and the constant rule(d/dx *c = 0)<br>
+                1 ===> 0<br>
+                <br>
+                now factorise to make x = 0 (there many methods to solve this, but quadratic is one of the a reliable ways. Due to the question being easy, I will not be using it) <br>
+                3x² - 12x + 9<br> 
+                divide all by 3 to make 3x² on it own <br>
+                x² - 4x + 3 <br>
+                -1 and -3 are the factors because when added together they make -4 and when time, they makes 3<br>
+                (x - 1)(x - 3) <br>
+                Slove for x by moving them to the other side<br>
+                x - 1 = 0  ===> x = 1 and x - 3 = 0 ===> x = 3<br>
+                <br>
+                ∴ there is a MAXIMA at x = 1 or 3<br>
+                This can be seen in a graph below:
+            </p>
+            
+
+            <!-- graph showin the equation-->
+            <iframe src="https://www.desmos.com/calculator/kyaaauu676?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0 alt="Graph on Desmos showing the equation where x = 1 and 3 gets hit"></iframe>
+        
+            <!--Link for desmo equation-->
+            <p><a href="https://www.desmos.com/calculator/m3qoxoz7dz" target="_blank">Click for link = https://www.desmos.com/calculator/m3qoxoz7dz</a></p>
+
+
+            <!--paragraph to explain the graph-->
+            <p class="paragraph">
+                The blue line represent x = 1 because that was the highest point in that curve so the black line represent x = 3 due to lowest point in that curve
+            </p>
+        </div>
+
+        <div class="div" style="transform: translate(60%,0);">
+            <!-- Title for questions and answers-->
+            <h1 class="subheader"> <ins> Random questions with answers </ins> </h1>
+
+            <!--The question-->
+            <p class="paragraph" id="question1"> test</p><br>
+
+            <!--The answer1-->
+            <p class="paragraph" id="answer1"> test</p><br>
+
+            <!--button to generate a new question -->
+            <button id="generate">
+            click to get another question.</button>
+
+            <!--button to generate a new question -->
+            <button id="show/hide answer1">
+            click to show answer.</button>
+
+            <!--button to show/hide next questions's answer -->
+            <button id="show/hide NextAnswer1">
+                click to keep next answer show.</button>
+
+            <!--button to generate a new question 
+            <button id="show/hide answer1">
+            click to show answer.</button> -->
+
+        </div>
+
+    <!--nav bar-->
+        <div class="navbar">
+            <a href="index.html" style="background-color: rgb(164, 200, 200);">home</a>
+            <a href="ReferanceList.html" style="background-color: rgb(167, 202, 160);">refrences</a>
+            <a href="">stuff</a>
+            <a href="">anthor stuff</a>
+        </div>
+
+
+        <script src="./script.js"></script>
+    </body>
+
+    
+    
+</html>
